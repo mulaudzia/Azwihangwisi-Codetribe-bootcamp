@@ -4,88 +4,201 @@
         <meta charset="UTF-8" />
         <title>Azwihangwisi Mulaudzi | Portfolio</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
     </head>
-    <body bgcolor="#f5f0e8" text="#0f0e0d" link="#c8703a" vlink="#9e4f22">
+    <body id="top">
+
         <!--Navigation-->
-        <table width="100%" border="1" cellpadding="10" cellspacing="0" bgcolor="#ffffff">
-            <tr>
-                <td width="150">
-                    <a href="index.html">
-                        <img src="img/logo.png" width="50" height="30">
-                    </a>
-                </td>
-                <td align="center">
-                    <a href="index.html">Home</a> &nbsp;&nbsp;
-                    <a href="about.html">About Me</a> &nbsp;&nbsp;
-                    <a href="contact.html">Contact Me</a> &nbsp;&nbsp;
-                </td>
-            </tr>
-        </table>
+        <nav class="nav">
+            <a href="index.html" class="nav-logo">
+                <img src="img/logo.png" width="50" height="30" alt="Logo" />
+            </a>
+            <div class="nav-links">
+                <a href="#top">Home</a>
+                <a href="#about">About Me</a>
+                <a href="#contact">Contact Me</a>
+            </div>
+        </nav>
+
         <br />
 
         <!--vid-->
-        <video width="100%" height="400" autoplay muted loop><source src="img/Mov.mp4" /></video>
+        <div class="hero-video">
+            <video width="100%" height="400" autoplay muted loop>
+                <source src="img/Mov.mp4" />
+            </video>
+        </div>
+
         <br />
 
         <!--Bio-->
-        <table width="100%" border="0" cellpadding="20" cellspacing="0">
-    <tr valign="top">
-      <td width="70%">
-        <h2>Azwihangwisi Mulaudzi</h2>
-        <p>I am an Assistant Archivist and tech enthusiast with a Bachelor of Arts in Media Studies. With hands-on experience in digital preservation, I have successfully managed and cataloged complex media collections, alongside developing localized digital platforms and workflow automations.</p>
-        <p>Driven by a passion for technology and continuous growth, I focus on building impactful, forward-thinking digital solutions. I am currently sharpening my technical software development and engineering skills through the FNB App Academy and CodeTribe.</p>
-      </td>
-      <!--Photo-->
-      <td width="30%" align="center">
-        <img src="img/Me.jpg" width="200" height="200"/>
-        <br />
-      </td>
-    </tr>
-  </table>
-  <br />
+        <div class="bio" id="about">
+            <div class="bio-text">
+                <h2>Azwihangwisi Mulaudzi</h2>
+                <p>I am an Assistant Archivist and tech enthusiast with a Bachelor of Arts in Media Studies. With hands-on experience in digital preservation, I have successfully managed and cataloged complex media collections, alongside developing localized digital platforms and workflow automations.</p>
+                <p>Driven by a passion for technology and continuous growth, I focus on building impactful, forward-thinking digital solutions. I am currently sharpening my technical software development and engineering skills through the FNB App Academy and CodeTribe.</p>
+            </div>
+            <!--Photo-->
+            <div class="bio-photo">
+                <img src="img/Me.jpg" width="200" height="200" alt="Azwihangwisi Mulaudzi" />
+            </div>
+        </div>
 
-  <!--foot-->
-   <table width="100%" border="1" cellpadding="15" cellspacing="0" bgcolor="#222222">
-    <tr valign="top">
- 
-      <!-- Address -->
-      <td width="33%">
-        <font color="#ffffff">
-          <b>Location</b><br />
-          <br />
-          Polokwane, Limpopo<br />
-          South Africa, 0699<br />
-          <br />
-          
-          <a href="tel:+27730206568">Call 073 020 6568</a>
-        </font>
-      </td>
-      <!-- Social -->
-      <td width="33%" align="center">
-        <font color="#ffffff"><b>Quick Links</b></font><br /><br />
-        <a href="https://linkedin.com/in/mulaudzia">[Linkedin]</a>
-        &nbsp;&nbsp;
-        <a href="https://facebook.com/azwihangwisi.mulaudzi">[Facebook]</a>
-        &nbsp;&nbsp;
-        <a href="https://x.com/UN4GETEBLE">[X]</a>
-        <br /><br />
-        <font color="#aaaaaa" size="2">
-          <a href="index.html" style="color:#aaaaaa;">Home</a> |
-          <a href="about.html" style="color:#aaaaaa;">About Me</a> |
-          <a href="contact.html" style="color:#aaaaaa;">Contact Us</a>
-        </font>
-      </td>
-      <!-- Map -->
-      <td width="33%" align="center">
-        <font color="#ffffff"><b>Find Me</b></font><br /><br />
-        <table border="0" width="200" height="150" cellpadding="5" bgcolor="#333333">
-          <tr><td align="center"><font color="#aaaaaa"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14586.528580071577!2d29.440783820190415!3d-23.938076743979003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sza!4v1779224549257!5m2!1sen!2sza" width="300" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></font></td></tr>
-        </table>
-      </td>
-    </tr>
-  </table>
- 
-</body>
-</html>
+        <br />
+
+        <!--About-->
+        <h2>Who I Am</h2>
+        <p>
+            I am a tech enthusiast and information specialist with a background in media studies and a strong focus on digital innovation. Over the past two years, I have worked as an Assistant Archivist, where I managed large-scale information management and digitization projects. Currently, I am expanding my skill set through an intensive Virtual Assistant program with ALX Africa while actively applying for administrative and archival roles within the public sector.
+        </p>
+
+        <br />
+        <h2>What I Do</h2>
+        <p>
+            Beyond my core profession, I am a digital creator, developer, and freelance Virtual Assistant providing administrative support on Upwork. I spend my time handling VA admin work, coding new projects, working on graphic design, and editing videos. When I have some free time, I love to unwind by playing video games and exploring my passions for space exploration and open-source software.
+        </p>
+
+        <br />
+        <h2>My Skills</h2>
+        <div class="skills-table">
+            <div class="skills-row skills-header">
+                <div>Area</div>
+                <div>Details</div>
+            </div>
+            <div class="skills-row">
+                <div><b>Coding Languages</b></div>
+                <div>HTML &bull; CSS &bull; JavaScript</div>
+            </div>
+            <div class="skills-row">
+                <div><b>Tools</b></div>
+                <div>VS Code &bull; GitHub &bull; Cursor</div>
+            </div>
+            <div class="skills-row">
+                <div><b>Interests</b></div>
+                <div>Music &bull; Games &bull; Community Tech</div>
+            </div>
+            <div class="skills-row">
+                <div><b>Spoken Languages</b></div>
+                <div>Tshivenda &bull; English &bull; Sepedi</div>
+            </div>
+        </div>
+
+        <br />
+
+        <!--contact details-->
+        <div class="contact-section" id="contact">
+            <!-- my details -->
+            <div class="contact-info">
+                <h2>Get In Touch</h2>
+                <p>
+                    I am open to collaborations, opportunities, or just a conversation.
+                    Feel free to reach out through any of the channels below.
+                </p>
+                <br />
+                <div class="contact-list">
+                    <div class="contact-row">
+                        <b>Phone:</b>
+                        <span>+27 73 020 6568</span>
+                    </div>
+                    <div class="contact-row">
+                        <b>Email:</b>
+                        <span><a href="mailto:mulaudzia001@gmail.com">mulaudzia001@gmail.com</a></span>
+                    </div>
+                    <div class="contact-row">
+                        <b>Location:</b>
+                        <span>Polokwane, Limpopo, ZA</span>
+                    </div>
+                    <div class="contact-row">
+                        <b>X:</b>
+                        <span><a href="https://x.com/UN4GETEBLE" target="_blank">UN4GETEBLE</a></span>
+                    </div>
+                    <div class="contact-row">
+                        <b>LinkedIn:</b>
+                        <span><a href="https://linkedin.com/in/mulaudzia" target="_blank">Azwihangwisi Mulaudzi</a></span>
+                    </div>
+                    <div class="contact-row">
+                        <b>Facebook:</b>
+                        <span><a href="https://facebook.com/azwihangwisi.mulaudzi" target="_blank">Azwihangwisi Mulaudzi</a></span>
+                    </div>
+                </div>
+            </div>
+            <!-- Contact Form -->
+            <div class="contact-form">
+                <h2>Send a Message</h2>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="Your name" />
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Your email" />
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" rows="5" placeholder="Your message"></textarea>
+                </div>
+                <button type="button" onclick="sendMessage()">Send Message</button>
+                <p class="form-status" id="form-status"></p>
+            </div>
+        </div>
+
+        <script>
+            function sendMessage() {
+                const name = document.getElementById('name').value.trim();
+                const email = document.getElementById('email').value.trim();
+                const message = document.getElementById('message').value.trim();
+                const status = document.getElementById('form-status');
+
+                if (!name || !email || !message) {
+                    status.textContent = 'Please fill in all fields.';
+                    status.style.color = '#c0392b';
+                    return;
+                }
+
+                const mailto = `mailto:mulaudzia001@gmail.com?subject=Portfolio Contact from ${encodeURIComponent(name)}&body=${encodeURIComponent(message)}%0A%0AFrom: ${encodeURIComponent(name)}%0AEmail: ${encodeURIComponent(email)}`;
+                window.location.href = mailto;
+
+                status.textContent = 'Opening your email client...';
+                status.style.color = '#c8703a';
+            }
+        </script>
+
+        <!--foot-->
+        <footer class="footer">
+            <!-- Address -->
+            <div class="footer-col">
+                <b>Location</b><br /><br />
+                Polokwane, Limpopo<br />
+                South Africa, 0699<br /><br />
+                <a href="tel:+27730206568">Call 073 020 6568</a>
+            </div>
+
+            <!-- Social -->
+            <div class="footer-col footer-center">
+                <b>Quick Links</b><br /><br />
+                <a href="https://linkedin.com/in/mulaudzia">[Linkedin]</a>
+                &nbsp;&nbsp;
+                <a href="https://facebook.com/azwihangwisi.mulaudzi">[Facebook]</a>
+                &nbsp;&nbsp;
+                <a href="https://x.com/UN4GETEBLE">[X]</a>
+                <br /><br />
+                <span class="footer-nav">
+                    <a href="#top">Home</a> |
+                    <a href="#about">About Me</a> |
+                    <a href="#contact">Contact Us</a>
+                </span>
+            </div>
+
+            <!-- Map -->
+            <div class="footer-col footer-center">
+                <b>Find Me</b><br /><br />
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14586.528580071577!2d29.440783820190415!3d-23.938076743979003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sza!4v1779224549257!5m2!1sen!2sza"
+                    width="300" height="100" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </footer>
+
     </body>
 </html>
