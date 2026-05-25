@@ -142,27 +142,6 @@
             </div>
         </div>
 
-        <script>
-            function sendMessage() {
-                const name = document.getElementById('name').value.trim();
-                const email = document.getElementById('email').value.trim();
-                const message = document.getElementById('message').value.trim();
-                const status = document.getElementById('form-status');
-
-                if (!name || !email || !message) {
-                    status.textContent = 'Please fill in all fields.';
-                    status.style.color = '#c0392b';
-                    return;
-                }
-
-                const mailto = `mailto:mulaudzia001@gmail.com?subject=Portfolio Contact from ${encodeURIComponent(name)}&body=${encodeURIComponent(message)}%0A%0AFrom: ${encodeURIComponent(name)}%0AEmail: ${encodeURIComponent(email)}`;
-                window.location.href = mailto;
-
-                status.textContent = 'Opening your email client...';
-                status.style.color = '#c8703a';
-            }
-        </script>
-
         <!--foot-->
         <footer class="footer">
             <!-- Address -->
